@@ -16,7 +16,7 @@ for i in range(100):
     latest_iteration.text(f"Iteration {i+1}")
     bar.progress(i + 1)
     time.sleep(0.01)
-    
+st.baloons()    
 "Done!!!!!"
 
 
