@@ -43,8 +43,8 @@ if st.checkbox("Show Image"):
     img = Image.open("sample_5_17_car.jpg")
     st.image(img, caption="ローレル", use_column_width=True)
 
-df = pd.DataFrame(
-    np.random.rand(100, 2)/[50, 50] + [35.69, 139.70],
-    columns=['lat', 'lon']
-)
-st.map(df)
+#df = pd.DataFrame(
+    #np.random.rand(100, 2)/[50, 50] + [35.69, 139.70],
+    #columns=['lat', 'lon']
+#)
+#st.map(df)
