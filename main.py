@@ -40,10 +40,11 @@ condition = st.slider("あなたの今の調子は？", 0, 100, 50)
 "コンディション：", condition
 
 if st.checkbox("Show Image"):
-    img = Image.open("sample_5_17_car.jpg")
+    #img = Image.open("sample_5_17_car.jpg")
     st.image(numpy_array)
     st.image(image_bytes)
     st.image(file)
+    st.image("https://ja.wikipedia.org/wiki")
     #st.image(img, caption="ローレル", use_column_width=True)
 
 df = pd.DataFrame(
