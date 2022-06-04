@@ -9,13 +9,9 @@ from PIL import Image
 import sys
 import time
 
-import json
 
-with open('secret.json') as f:
-    secret = json.load(f)
-
-KEY = secret['KEY']
-ENDPOINT = secret['ENDPOINT']
+KEY = secret'5b46176aa7374152ada9e8284ed87d1b'
+ENDPOINT = secret'https://udemy-20220521.cognitiveservices.azure.com/'
 
 computervision_client = ComputerVisionClient(ENDPOINT, CognitiveServicesCredentials(KEY))
 
